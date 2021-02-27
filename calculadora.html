@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/calculadora.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div id="container">
+        <h2 id="title">CALCULADORA</h2>
+        <div id="output">
+        </div>
+        <div id="botones">
+            <div class="boton-container"><button class="boton" disabled>%</button></div>
+            <div class="boton-container"><button class="boton" id="resto">mod</button></div>
+            <div class="boton-container"><button class="boton" id="limpiar">C</button></div>
+            <div class="boton-container"><button class="boton" id="limpiar-uno" disabled>&#8592;</button></div>
+            <div class="boton-container"><button class="boton" disabled>\(1/x\)</button></div>
+            <div class="boton-container"><button class="boton" id="potencia">\(x^y\)</button></div>
+            <div class="boton-container"><button class="boton" disabled>\(\sqrt{x}\)</button></div>
+            <div class="boton-container"><button class="boton" id="division">&#247;</button></div>
+            <div class="boton-container"><button class="boton" id="siete">7</button></div>
+            <div class="boton-container"><button class="boton" id="ocho">8</button></div>
+            <div class="boton-container"><button class="boton" id="nueve">9</button></div>
+            <div class="boton-container"><button class="boton" id="multiplicacion">&#215;</button></div>
+            <div class="boton-container"><button class="boton" id="cuatro">4</button></div>
+            <div class="boton-container"><button class="boton" id="cinco">5</button></div>
+            <div class="boton-container"><button class="boton" id="seis">6</button></div>
+            <div class="boton-container"><button class="boton" id="resta">&#8722;</button></div>
+            <div class="boton-container"><button class="boton" id="uno">1</button></div>
+            <div class="boton-container"><button class="boton" id="dos">2</button></div>
+            <div class="boton-container"><button class="boton" id="tres">3</button></div>
+            <div class="boton-container"><button class="boton" id="suma">&#43;</button></div>
+            <div class="boton-container"><button class="boton" disabled>&#43;/&#8722;</button></div>
+            <div class="boton-container"><button class="boton" id="cero">0</button></div>
+            <div class="boton-container"><button class="boton" id="coma" disabled>,</button></div>
+            <div class="boton-container"><button class="boton" id="resultado">&#61;</button></div>
+        </div>
+    </div>
+
+
+
+
+    <script src="js/calculadora.js"></script>
+</body>
+</html>
